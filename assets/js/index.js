@@ -1,4 +1,6 @@
 $(function(){
+    $('.text-avatar').hide()
+    $('.layui-nav-img').hide()
     // 调用getUserInfo 获取用户基本信息
     getUserInfo()
     // 点击按钮，实现退出功能
@@ -47,15 +49,15 @@ $.ajax({
 }
 
 // 渲染用户的头像
-function renderAvatar(user){
+function renderAvatar(user){  
     // 获取用户名称
-   let name = user.username || user.nickname
+   let name = user.nickname || user.username
 //    设置欢迎的文本
    $('#welcome').html('欢迎&nbsp;&nbsp;' + name)
 //    按需渲染用户的头像
 if (user.user_pic !== null) {
     // 渲染图片头像
-    $('.layui-nav-img').attr('src', user.luser_pic).show()
+    $('.layui-nav-img').attr('src', user.user_pic).show()
     $('.text-avatar').hide()
 }else{
 //    渲染文本头像

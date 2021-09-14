@@ -65,7 +65,7 @@ $.ajax({
     data: $(this).serialize(),
     success: function(res){
  if (res.status !== 0) {
-     return layer.msg('登录失败！')
+     return layer.msg('账号或密码错误！')
  }
  layer.msg('登录成功！')
 //  将登录成功得到的token 字符串保存到 localStorage 中
