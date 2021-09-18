@@ -3,18 +3,18 @@ html,body {
     padding: 0;
     height:100%;
     width: 100%;
-    background: url('/code/assets/images/login_bg.jpg') no-repeat center;
+    background: url('/assets/images/login_bg.jpg') no-repeat center;
     background-size: cover;
 }
 /* logo样式 */
 .login{
-    width: 700px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .loginAndRegBox {
-    width: 350px;
-    height: 300px;
+    width: 550px;
+    height: 350px;
     background-color: #fff;
     position: absolute;
     left: 50%;
@@ -23,7 +23,7 @@ html,body {
 }
 .title-box{
     height: 60px;
-    background: url(/code/assets/images/login_title.png) no-repeat center; 
+    background: url(/assets/images/login_title.png) no-repeat center; 
 }
 
 .layui-form{

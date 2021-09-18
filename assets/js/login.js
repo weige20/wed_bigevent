@@ -71,7 +71,7 @@ $.ajax({
 //  将登录成功得到的token 字符串保存到 localStorage 中
 localStorage.setItem('token',res.token)
 //  跳转到后台主页
-location.href = '/code/index.html'
+location.href = '/index.html'
     }
 })
   })

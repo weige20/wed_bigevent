@@ -23,7 +23,7 @@ options.complete = function(res){
             // 强制清空 token
             localStorage.removeItem('token')
             // 强制跳转到登录页
-            location.href = '/code/login.html'
+            location.href = '/login.html'
         }
 }
 })

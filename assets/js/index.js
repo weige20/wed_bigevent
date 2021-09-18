@@ -10,7 +10,7 @@ $(function(){
     //   清空本地存储中的 token
     localStorage.removeItem('token')
     // 重新跳转到登录页面
-    location.href = '/code/login.html'
+    location.href = '/login.html'
     // 关闭confirm询问框
             layer.close(index);
           });
